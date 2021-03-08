@@ -1,6 +1,7 @@
 package it.polito.tdp.librettovoti.model;
 
 import java.time.LocalDate;
+import java.util.*;
 
 public class TestLibretto {
 	public static void main(String[] args) {
@@ -16,5 +17,12 @@ public class TestLibretto {
 	libretto.add(voto3);
 	
 	 System.out.println(""+libretto.toString());
+	 
+	 List<Voto> venticinque= libretto.listaVotiUguali(25);
+	 System.out.println(venticinque);
+	 
+	 Libretto librettoventiciqunte=libretto.votiUguali(25);
+	 System.out.println(librettoventiciqunte);
+	 
 	}
 }

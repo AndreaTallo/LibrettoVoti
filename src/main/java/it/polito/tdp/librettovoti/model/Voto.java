@@ -38,7 +38,7 @@ public void setData(LocalDate data) {
 }
 @Override
 public String toString() {
-	return "Voto [nomeCorso=" + nomeCorso + ", voto=" + voto + ", data=" + data + "]";
+	return "" + nomeCorso + ", voto=" + voto + ", data=" + data ;
 }
  
 
